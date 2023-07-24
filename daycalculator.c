@@ -109,19 +109,19 @@ void main()
             validdaycase=1;
         break; 
     case 8:day=day+simplifiedoffset+2+leapyearoffset;
-            validdaycase=2;
+            validdaycase=1;
         break; 
     case 9:day=day+simplifiedoffset+5+leapyearoffset;
-            validdaycase=1;
+            validdaycase=2;
         break; 
     case 10:day=day+simplifiedoffset+leapyearoffset;
-            validdaycase=2;
-        break; 
-    case 11:day=day+simplifiedoffset+3+leapyearoffset;
             validdaycase=1;
         break; 
-    case 12:day=day+simplifiedoffset+5+leapyearoffset;
+    case 11:day=day+simplifiedoffset+3+leapyearoffset;
             validdaycase=2;
+        break; 
+    case 12:day=day+simplifiedoffset+5+leapyearoffset;
+            validdaycase=1;
         break;    
     default:break;
     }
