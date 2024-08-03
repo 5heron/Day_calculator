@@ -20,7 +20,7 @@ void dayselect(int day){
 	}
 }
 void inyearchange(int ych,int year,int l){
-	int jan1=6,offsetof[13]={0,0,3,3,6,1,4,6,2,5,0,3,5},m[13]={31,28,31,30,31,30,31,31,30,31,30,31};
+	int jan1=6,offsetof[13]={0,0,3,3,6,1,4,6,2,5,0,3,5},m[13]={0,31,28,31,30,31,30,31,31,30,31,30,31};
 	if(year<2000){
 		jan1+=7;
 		ych*=(-1);
